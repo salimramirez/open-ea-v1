@@ -9,7 +9,8 @@
     "domain-analyses": "Análisis de Dominios",
     "average-authority": "Autoridad de Dominio Promedio",
     "analysis-count": "Cantidad de Análisis",
-    "last-analysis": "Fecha del Último Análisis"
+    "last-analysis": "Fecha del Último Análisis",
+    "no-analyses": "Sin análisis"
   },
   "analysis": {
     "title": "Análisis de Dominio",

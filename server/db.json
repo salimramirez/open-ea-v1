@@ -1,17 +1,51 @@
 {
   "domains": [
-    { "id": 1, "name": "google.com" },
-    { "id": 2, "name": "webfx.com" },
-    { "id": 3, "name": "example.org" },
-    { "id": 4, "name": "openai.com" },
-    { "id": 5, "name": "wikipedia.org" }
+    {
+      "id": 1,
+      "name": "google.com"
+    },
+    {
+      "id": 2,
+      "name": "webfx.com"
+    },
+    {
+      "id": 3,
+      "name": "example.org"
+    },
+    {
+      "id": 4,
+      "name": "openai.com"
+    },
+    {
+      "id": 5,
+      "name": "wikipedia.org"
+    },
+    {
+      "id": 6,
+      "name": "pizza.com"
+    }
   ],
   "domain-analysis-tools": [
-    { "code": "moz", "name": "Moz Analysis Tool" },
-    { "code": "semrush", "name": "SEMRush Analyzer" },
-    { "code": "ahrefs", "name": "Ahrefs Authority Checker" },
-    { "code": "google", "name": "Google SEO Audit Tool" },
-    { "code": "ubersuggest", "name": "Ubersuggest Analyzer" }
+    {
+      "code": "moz",
+      "name": "Moz Analysis Tool"
+    },
+    {
+      "code": "semrush",
+      "name": "SEMRush Analyzer"
+    },
+    {
+      "code": "ahrefs",
+      "name": "Ahrefs Authority Checker"
+    },
+    {
+      "code": "google",
+      "name": "Google SEO Audit Tool"
+    },
+    {
+      "code": "ubersuggest",
+      "name": "Ubersuggest Analyzer"
+    }
   ],
   "domain-analyses": [
     {
@@ -97,6 +131,13 @@
       "toolCode": "ahrefs",
       "domainAuthority": 94,
       "analyzedAt": "2024-10-09T14:45:00Z"
+    },
+    {
+      "id": 13,
+      "domainId": 6,
+      "toolCode": "moz",
+      "domainAuthority": 66,
+      "analyzedAt": "2025-05-20T10:57:37.027Z"
     }
   ]
 }

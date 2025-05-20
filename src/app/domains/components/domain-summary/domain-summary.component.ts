@@ -3,7 +3,7 @@ import { MatCardModule } from '@angular/material/card';
 import { Domain } from '../../model/domain.entity';
 import { DomainAnalysis } from '../../../seo/model/domain-analysis.entity';
 import { LogoApiService } from '../../../shared/services/logo-api.service';
-import { TranslatePipe } from '@ngx-translate/core';
+import { TranslatePipe, TranslateService } from '@ngx-translate/core';
 import { DatePipe } from '@angular/common';
 
 /**
@@ -29,13 +29,16 @@ export class DomainSummaryComponent {
   /** All available analyses (must be filtered externally by domain) */
   @Input() analyses: DomainAnalysis[] = [];
 
-  constructor(protected logoApi: LogoApiService) {}
+  constructor(protected logoApi: LogoApiService,
+              private translate: TranslateService) {}
 
   /**
    * Returns the average domain authority, rounded to nearest integer.
    */
   get averageAuthority(): string {
-    if (!this.analyses.length) return 'No analyses';
+    if (!this.analyses.length) {
+      return this.translate.instant('home.no-analyses');
+    }
     const sum = this.analyses.reduce((acc, a) => acc + a.domainAuthority, 0);
     return Math.round(sum / this.analyses.length).toString();
   }

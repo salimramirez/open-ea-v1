@@ -9,7 +9,8 @@
     "domain-analyses": "Domain Analyses",
     "average-authority": "Average Domain Authority",
     "analysis-count": "Number of Analyses",
-    "last-analysis": "Last Analysis Date"
+    "last-analysis": "Last Analysis Date",
+    "no-analyses": "No analyses"
   },
   "analysis": {
     "title": "Domain Analysis",
