@@ -1,0 +1,48 @@
+{
+  "toolbar": {
+    "home": "Home",
+    "analysis": "Analysis"
+  },
+  "home": {
+    "title": "Home",
+    "welcome": "Welcome to WebFX",
+    "domain-analyses": "Domain Analyses",
+    "average-authority": "Average Domain Authority",
+    "analysis-count": "Number of Analyses",
+    "last-analysis": "Last Analysis Date"
+  },
+  "analysis": {
+    "title": "Domain Analysis",
+    "domain": "Domain",
+    "domain-authority": "Domain Authority",
+    "tool-code": "Tool Code",
+    "submit": "Add Analysis",
+    "success": "Domain analysis added successfully.",
+    "error": {
+      "invalid-form": "Please complete all required fields correctly.",
+      "invalid-tool": "Invalid analysis tool code.",
+      "duplicate-recent": "Recent analysis detected. Please wait a few seconds before adding another analysis for this domain with the same tool.",
+      "invalid-domain": "Invalid domain format.",
+      "no-tools": "No analysis tools available at this time."
+    }
+  },
+  "pageNotFound": {
+    "title": "Page not found",
+    "message": "The route you tried to access does not exist:",
+    "button": "Go to Home"
+  },
+  "formErrors": {
+    "domain": {
+      "required": "Domain is required",
+      "pattern": "Please enter a valid domain (e.g. google.com)"
+    },
+    "domainAuthority": {
+      "required": "Domain authority is required",
+      "min": "Minimum value is 1",
+      "max": "Maximum value is 100"
+    },
+    "toolCode": {
+      "required": "Tool code is required"
+    }
+  }
+}

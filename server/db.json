@@ -1,0 +1,102 @@
+{
+  "domains": [
+    { "id": 1, "name": "google.com" },
+    { "id": 2, "name": "webfx.com" },
+    { "id": 3, "name": "example.org" },
+    { "id": 4, "name": "openai.com" },
+    { "id": 5, "name": "wikipedia.org" }
+  ],
+  "domain-analysis-tools": [
+    { "code": "moz", "name": "Moz Analysis Tool" },
+    { "code": "semrush", "name": "SEMRush Analyzer" },
+    { "code": "ahrefs", "name": "Ahrefs Authority Checker" },
+    { "code": "google", "name": "Google SEO Audit Tool" },
+    { "code": "ubersuggest", "name": "Ubersuggest Analyzer" }
+  ],
+  "domain-analyses": [
+    {
+      "id": 1,
+      "domainId": 1,
+      "toolCode": "moz",
+      "domainAuthority": 90,
+      "analyzedAt": "2024-10-01T09:00:00Z"
+    },
+    {
+      "id": 2,
+      "domainId": 1,
+      "toolCode": "semrush",
+      "domainAuthority": 88,
+      "analyzedAt": "2024-10-02T10:15:00Z"
+    },
+    {
+      "id": 3,
+      "domainId": 1,
+      "toolCode": "ahrefs",
+      "domainAuthority": 89,
+      "analyzedAt": "2024-10-03T11:45:00Z"
+    },
+    {
+      "id": 4,
+      "domainId": 2,
+      "toolCode": "moz",
+      "domainAuthority": 70,
+      "analyzedAt": "2024-10-01T12:00:00Z"
+    },
+    {
+      "id": 5,
+      "domainId": 2,
+      "toolCode": "google",
+      "domainAuthority": 73,
+      "analyzedAt": "2024-10-05T09:25:00Z"
+    },
+    {
+      "id": 6,
+      "domainId": 3,
+      "toolCode": "ubersuggest",
+      "domainAuthority": 45,
+      "analyzedAt": "2024-10-10T08:10:00Z"
+    },
+    {
+      "id": 7,
+      "domainId": 3,
+      "toolCode": "ahrefs",
+      "domainAuthority": 50,
+      "analyzedAt": "2024-10-11T07:55:00Z"
+    },
+    {
+      "id": 8,
+      "domainId": 4,
+      "toolCode": "semrush",
+      "domainAuthority": 85,
+      "analyzedAt": "2024-10-04T10:00:00Z"
+    },
+    {
+      "id": 9,
+      "domainId": 4,
+      "toolCode": "moz",
+      "domainAuthority": 87,
+      "analyzedAt": "2024-10-04T11:00:00Z"
+    },
+    {
+      "id": 10,
+      "domainId": 5,
+      "toolCode": "google",
+      "domainAuthority": 95,
+      "analyzedAt": "2024-10-07T16:00:00Z"
+    },
+    {
+      "id": 11,
+      "domainId": 5,
+      "toolCode": "semrush",
+      "domainAuthority": 92,
+      "analyzedAt": "2024-10-08T18:30:00Z"
+    },
+    {
+      "id": 12,
+      "domainId": 5,
+      "toolCode": "ahrefs",
+      "domainAuthority": 94,
+      "analyzedAt": "2024-10-09T14:45:00Z"
+    }
+  ]
+}

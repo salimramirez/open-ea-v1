@@ -1,0 +1,48 @@
+{
+  "toolbar": {
+    "home": "Inicio",
+    "analysis": "Análisis"
+  },
+  "home": {
+    "title": "Inicio",
+    "welcome": "Bienvenido a WebFX",
+    "domain-analyses": "Análisis de Dominios",
+    "average-authority": "Autoridad de Dominio Promedio",
+    "analysis-count": "Cantidad de Análisis",
+    "last-analysis": "Fecha del Último Análisis"
+  },
+  "analysis": {
+    "title": "Análisis de Dominio",
+    "domain": "Dominio",
+    "domain-authority": "Autoridad del Dominio",
+    "tool-code": "Código de Herramienta",
+    "submit": "Agregar Análisis",
+    "success": "El análisis de dominio fue agregado correctamente.",
+    "error": {
+      "invalid-form": "Por favor completa todos los campos correctamente.",
+      "invalid-tool": "Código de herramienta inválido.",
+      "duplicate-recent": "Ya se ha registrado un análisis reciente. Espera unos segundos antes de volver a intentarlo con este dominio y herramienta.",
+      "invalid-domain": "Formato de dominio inválido.",
+      "no-tools": "No hay herramientas de análisis disponibles en este momento."
+    }
+  },
+  "pageNotFound": {
+    "title": "Página no encontrada",
+    "message": "La ruta que intentaste acceder no existe:",
+    "button": "Ir al inicio"
+  },
+  "formErrors": {
+    "domain": {
+      "required": "El dominio es obligatorio",
+      "pattern": "Ingresa un dominio válido (ej. google.com)"
+    },
+    "domainAuthority": {
+      "required": "La autoridad del dominio es obligatoria",
+      "min": "El valor mínimo es 1",
+      "max": "El valor máximo es 100"
+    },
+    "toolCode": {
+      "required": "El código de herramienta es obligatorio"
+    }
+  }
+}

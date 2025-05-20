@@ -1,0 +1,28 @@
+mat-card {
+  margin: 1rem;
+  border-radius: 12px;
+  box-shadow: 0 2px 8px rgba(0, 105, 137, 0.15); /* sombra azul suave */
+  transition: transform 0.2s ease;
+}
+
+mat-card-header {
+  align-items: center;
+}
+
+mat-card-title {
+  font-size: 18px;
+  font-weight: 600;
+  color: #004d40;
+}
+
+mat-card-content p {
+  margin: 0.5rem 0;
+  font-size: 15px;
+  color: #333;
+}
+
+mat-card-footer {
+  margin-top: 1rem;
+  font-size: 14px;
+  color: #555;
+}

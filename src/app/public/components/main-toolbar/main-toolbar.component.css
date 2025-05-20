@@ -1,0 +1,61 @@
+.app-toolbar {
+  background-color: #e0f2f1;
+  color: #004d40;
+  padding: 0 16px;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+}
+
+mat-toolbar-row {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  gap: 0.5rem;
+  height: auto !important; /* ✅ Fuerza a crecer según contenido */
+  min-height: 64px;         /* 🟦 Altura mínima estándar de toolbar en desktop */
+  padding-top: 8px;
+  padding-bottom: 8px;
+}
+
+
+.start-group, .nav-group, .end-group {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  flex: 1 1 auto;
+}
+
+.logo {
+  height: 32px;
+  width: 32px;
+  margin-right: 8px;
+}
+
+.tagline {
+  font-size: 18px;
+  font-weight: 500;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+/* Responsive behavior */
+@media (max-width: 768px) {
+  .start-group,
+  .nav-group,
+  .end-group {
+    flex: 1 1 100%;
+    justify-content: center;
+    text-align: center;
+  }
+
+  .tagline {
+    font-size: 16px;
+    white-space: normal;
+  }
+
+  .nav-group {
+    flex-wrap: wrap;
+  }
+}

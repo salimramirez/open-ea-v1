@@ -1,0 +1,25 @@
+<mat-card aria-label="Domain summary card">
+  <mat-card-header>
+    <div mat-card-avatar>
+      <img
+        [src]="logoUrl"
+        [alt]="domain.name + ' logo'"
+        style="height: 40px; width: 40px; border-radius: 50%;" />
+    </div>
+    <mat-card-title>{{ domain.name }}</mat-card-title>
+  </mat-card-header>
+
+  <mat-card-content>
+    <p><b>{{ 'home.average-authority' | translate }}:</b> {{ averageAuthority }}</p>
+    <p><b>{{ 'home.analysis-count' | translate }}:</b> {{ analysisCount }}</p>
+  </mat-card-content>
+
+  @if (lastAnalysisDate) {
+    <mat-card-footer>
+      <span>
+        <b>{{ 'home.last-analysis' | translate }}:</b>
+        {{ lastAnalysisDate | date: 'medium' }}
+      </span>
+    </mat-card-footer>
+  }
+</mat-card>

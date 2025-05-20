@@ -1,0 +1,23 @@
+<mat-toolbar class="app-toolbar" color="primary" aria-label="Main toolbar">
+  <mat-toolbar-row>
+
+    <!-- Izquierda: Logo + Título -->
+    <div class="start-group">
+      <img [src]="logoUrl" alt="WebFX logo" class="logo" />
+      <span class="tagline">Digital Marketing That Drives Revenue</span>
+    </div>
+
+    <!-- Centro: Navegación -->
+    <div class="nav-group">
+      @for (option of options; track option.label) {
+        <a mat-button [routerLink]="option.link" routerLinkActive="active">{{ option.label | translate }}</a>
+      }
+    </div>
+
+    <!-- Derecha: Selector de idioma -->
+    <div class="end-group">
+      <app-language-switcher />
+    </div>
+
+  </mat-toolbar-row>
+</mat-toolbar>

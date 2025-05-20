@@ -1,0 +1,7 @@
+<div class="domain-grid">
+  @for (domain of domains; track domain.id) {
+    <app-domain-summary
+      [domain]="domain"
+      [analyses]="analysesFor(domain.id)" />
+  }
+</div>
